@@ -58,9 +58,6 @@ def Part2(Input):
 
     CountDown = -1
     while len(NotStoredFiles) > 0:
-        if(Input[i] == '0'):
-            print(i%2)
-
         SpaceReps = int(Input[i])
         if (i % 2) == 0: #This is for a file case, we add each file into position
             #print(i/2)
@@ -153,5 +150,6 @@ def Main():
     Part2(Input)
     #6379678017108 = too high
     #6379678017108 = too high
+    #6379677752410
 
 Main()
